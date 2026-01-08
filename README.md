@@ -53,22 +53,24 @@ Paste only the API inside the file and save it
 4. Paste **ONLY your API key** inside the file:
 
 
-RUNNING INSTRUCTIONS 
-🛠 Installation & Run Instructions
+How to run
+clone the github repository into your local directory
+Ensure Docker Desktop is installed and running on your machine get the Dockerfile and a docker-compose.yml file from the gdrive link and save it to the local directory.
+open terminal in the directory and run command :
 
-1 Install Dependencies
-Run the following command in your terminal or PowerShell:
+```
+docker-compose build
+```
 
-pip install flask 
-pip install openai
+To launch the system run the command:
 
-2 Run the server
-Start the EduBridge Flask application:
+```
+docker-compose up
+```
 
-python app.py
 
-3 Open in browser
-After the server starts, open the following URL in your browser:
+Once the terminal shows * Serving Flask app 'app', the system is live.
+open you web browser(Edge) and go to: http://127.0.0.1:8000
 
-http://127.0.0.1:8000
+
 
