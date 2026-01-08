@@ -52,7 +52,7 @@ Paste only the API inside the file and save it
 
 4. Paste **ONLY your API key** inside the file:
 
-
+**NOTE : PLEASE FOLLOW THE INSTRUCTIONS GIVEN BELOW AND IGNORE THE README FILE ATTACHED IN THE ZIP FILE **
 How to run
 clone the github repository into your local directory
 Ensure Docker Desktop is installed and running on your machine get the Dockerfile and a docker-compose.yml file from the gdrive link and save it to the local directory.
